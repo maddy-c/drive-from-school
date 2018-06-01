@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables Lab</title>
+	<style>
+	table, th, td {
+		border: 1px solid navy;
+		background-color: inherit;
+		color: inherit;
+	}
+	
+	#one {
+	background-color: lightpink;
+	}
+	
+	#two {
+	background-color: bisque;
+	}
+	
+	#three {
+	background-color: powderblue;
+	}
+	
+	#four {
+	background-color: palegreen;
+	}
+	</style>
+</head>
+<body>
+	<h1>Maddy Cooper</h1>
+	<h2>Top 5 Shows</h2>
+	<table>
+		<tr>
+			<th>Rank</th>
+			<th>Show</th>
+			<th>Network</th>
+			<th>Rating</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>NCIS</td>
+			<td rowspan="2">CBS</td>
+			<td>10.9</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>NCIS: Los Angeles</td>
+			
+			<td>9.6</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Dancing with the Stars</td>
+			<td>ABC</td>
+			<td>9.3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>60 Minutes</td>
+			<td>CBS</td>
+			<td>8.7</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Voice</td>
+			<td>NBC</td>
+			<td>7.8</td>
+		</tr>
+	</table>
+	<h2>Programs of Study</h2>
+	<table>
+		<tr>
+			<th rowspan="2">Year</th>
+			<th colspan="4">Info Tech Programs</th>
+			<th rowspan="2">Related</th>
+		</tr>
+		<tr>
+			<th colspan="2">Business Technology</th>
+			<th colspan="2">Computer Science</th>
+		</tr>
+		<tr id="one">
+			<th>Freshmen</th>
+			<td>Office Administration I</td>
+			<td>Keyboarding</td>
+			<td>Video Game Design</td>
+			<td>Intro to Web Design</td>
+			<td>Computer Concepts</td>
+		</tr>
+		<tr id="two">
+			<th>Sophomore</th>
+			<td colspan="2">Office Administration II</td>
+			<td>Mobile CS</td>
+			<td>Advanced Web Design</td>
+			<td>Exploring CS</td>
+		</tr>
+		<tr id="three">
+			<th>Junior</th>
+			<td>Microsoft Certification</td>
+			<td>Office Procedures</td>
+			<td>Intro to Programming in Java</td>
+			<td rowspan="2">Livework</td>
+			<td>Banking</td>
+		</tr>
+		<tr id="four">
+			<th>Senior</th>
+			<td>Microsoft Certification</td>
+			<td>Livework</td>
+			<td>Object-Oriented Concepts in Java</td>
+			<td>Accounting</td>
+		</tr>
+	</table>
+</body>
+</html>

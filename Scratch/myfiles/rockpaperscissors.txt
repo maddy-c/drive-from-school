@@ -1,0 +1,16 @@
+if player == rock and computer == scissors then player = winner
+if player == paper and computer == scissors then player = loser
+if player == scissors and computer == scissors then player = tie
+
+if player == rock and computer == paper then player = loser
+if player == paper and computer == paper then player = tie
+if player == scissors and computer == paper then player = winner
+
+if player == rock and computer == rock then player = tie
+if player == paper and computer == rock then player = winner
+if player == scissors and computer == rock then player = loser
+
+
+rock = 0
+paper = 1
+scissors = 2
